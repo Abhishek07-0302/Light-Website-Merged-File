@@ -1958,4 +1958,13 @@ h2 {
 .footerhead {
   text-align: left;
 }
-	
+
+.timeline ol li div{
+  background-color: #fac402;
+  color: #000;
+}
+.card.card-body{
+  background-color:#fdf74d37 ;
+}.card.card-body button{
+  background-color: #fdf74d07  !important;
+}
