@@ -199,10 +199,10 @@ body nav.navbar.bg-dark .container{
   display: block ;
   margin: auto ;
   padding: 5px;
-  background-color: #18d26e;
+  background-color: #f9ee34;
   border-radius: 5px;
   border: none;
-  color: white;
+  color: black;
   width: 170px;
   font-size: 20px;
 
@@ -210,14 +210,15 @@ body nav.navbar.bg-dark .container{
 
 .donate-button button{
   border: none;
-  color: white;
+  color: black;
   font-size: 20px;
 
 }
 
-.donate-button button :hover{
-  color: white;
+.donate-button button:hover{
+  /* color: #f9ee34; */
   font-size: 20px;
+/* background-color: black !important; */
 
 }
 
@@ -1574,10 +1575,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul a {
   color: #eee;
+  text-decoration: none;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #18d26e;
+  color: #f9ee34;
+  text-decoration: none;
 }
 
 #footer .footer-top .footer-contact {
@@ -1624,8 +1627,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
-.footer-link{
-  color: #f9ee34;
+.footer-link {
+  color: #f9ee34 !important;
+  outline: none;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: white !important;
+  outline: none;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
