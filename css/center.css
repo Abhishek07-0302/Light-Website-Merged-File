@@ -398,7 +398,7 @@ body.scrollable {
 .timeline ol li:nth-child(odd) div::before {
     top: 100%;
     border-width: 8px 8px 0 0;
-    border-color: #18d26e transparent transparent transparent;
+    border-color: #fac402 transparent transparent transparent;
 }
 
 .timeline ol li:nth-child(even) div {
@@ -408,7 +408,7 @@ body.scrollable {
 .timeline ol li:nth-child(even) div::before {
     top: -8px;
     border-width: 8px 0 0 8px;
-    border-color: transparent transparent transparent #18d26e;
+    border-color: transparent transparent transparent #fac402;
 }
 
 .timeline time {

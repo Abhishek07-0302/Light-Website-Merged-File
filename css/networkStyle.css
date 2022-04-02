@@ -765,7 +765,7 @@ a img {
 
 .namancard {
     border-radius: 0;
-    box-shadow: 5px 5px 5px #18d26e;
+    box-shadow: 5px 5px 5px #fac402;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -775,7 +775,7 @@ a img {
 }
 
 .namancard:hover {
-    background: green;
+    background: #fac402;
     color: #fff;
     border-radius: 5px;
     border: none;
@@ -987,7 +987,7 @@ a img {
     margin-top: 20px;
 }
 .reach-card {
-    background-color: #18d26e;
+    background-color: #fac402;
     padding: 20px 10px;
     margin: 20px auto;
     border-radius: 10px;
@@ -1005,7 +1005,7 @@ a img {
     font-weight: bold;
 }
 .incentive-card {
-    background-color: #18d26e;
+    background-color: #fac402;
     border-radius: 10px;
     width: 100%;
     text-align: center;
